@@ -45,18 +45,18 @@ namespace ChallengesWithTestsMark8
         {
             if (nameOfPerson == "")
             {
-                return "Hello.";
+                return "Hello!";
             }
             else
             {
-                return $"Hello, {nameOfPerson}.";
+                return $"Hello, {nameOfPerson}!";
             }
-            return string.IsNullOrEmpty(nameOfPerson) ? "Hello." : $"Hello, {nameOfPerson}.";
+            return string.IsNullOrEmpty(nameOfPerson) ? "Hello!" : $"Hello, {nameOfPerson}!";
         }
 
         public string GetHey()
         {
-            return "Hey.";
+            return "HEY!";
         }
     }
 }
